@@ -20,21 +20,21 @@ Before you can use this script, you'll need the following:
 
 ## Getting Started
 
-Clone or download this repository to your local machine.
+- Clone or download this repository to your local machine.
 
-Navigate to the project directory:
+- Navigate to the project directory:
 
-cd whats_on
+- cd whats_on
 
-Install the required packages as mentioned in the Prerequisites section.
+- Install the required packages as mentioned in the Prerequisites section.
 
 ## Usage
 
-To use the Whats On - Event Scraper, follow these steps:
+To use the Whats On, follow these steps:
 
 Run the script by executing the following command in your terminal:
 
-python whats_on.py
+    python whats_on.py
 
 You will be prompted to enter the city you're interested in. Type the city name or ID (configured in config.csv) and press Enter.
 
