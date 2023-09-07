@@ -61,8 +61,7 @@ def load_config(city_id: str) -> WebPageInfo:
     return WebPageInfo(**city_config_dict)
 
 
-
-def get_webpage_information(event, webpage_info) -> Event:
+def get_webpage_information(event, webpage_info:WebPageInfo) -> Event:
     """
     Extract event information from a webpage using provided selectors.
 
