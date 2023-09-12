@@ -1,6 +1,6 @@
 # Whats On - Event Scraper
 
-This Python script was developed as a quick weekend project, aiming to offer a simple and convenient solution for staying informed about events in your city. It efficiently scrapes and presents event information from a specified website, and users can easily customize its behavior through a configuration file. Currently, the supported cities include Melbourne and Sydney.
+This Python script was developed as a quick weekend project, aiming to offer a simple and convenient solution for staying informed about events in your city. It efficiently scrapes and presents event information from a specified website, and users can easily introduce new cities through the configuration file. Currently, the supported cities include Melbourne and Sydney.
 
 ## Table of Contents
 
@@ -42,24 +42,13 @@ The script will then fetch event information from the specified website and disp
 
 ## Configuration
 
-The script uses a configuration file named config.csv to customize its behavior for different cities. This file includes the following columns:
+The script uses a configuration file named config.csv to identify what portions of the website relate to what tags and classes. 
+
+This file includes the following columns:
 
     city_id: The unique identifier for the city.
     url: The URL of the website where event information is scraped.
-    article_tag: The HTML tag that wraps each event article.
-    article_class: The CSS class name of the event article.
-    event_name_tag: The HTML tag that contains the event name.
-    event_name_class: The CSS class name of the event name.
-    event_time_tag: The HTML tag that contains the event date and time.
-    event_time_class: The CSS class name of the event date and time.
-    event_summary_tag: The HTML tag that contains the event summary.
-    event_summary_class: The CSS class name of the event summary.
-
-You can customize the configuration for different cities by adding or modifying entries in the config.csv file.
-Contributing
-
-If you'd like to contribute to this project, feel free to submit a pull request or open an issue. We welcome contributions and improvements.
-
-
-You can modify this `README.md` to include specific details about your project, such as installation instructions, usage examples, and additional documentation as needed.
-
+    *_tag: The HTML tag locating the name, time or summary text. 
+    *_class: The CSS class locating the name, time or summary text. 
+    
+To add more cities or adjust the current displayed content, simply edit the entries in the config.csv file.
