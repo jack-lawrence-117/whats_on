@@ -1,6 +1,6 @@
 # Whats On - Event Scraper
 
-This Python script was developed as a quick weekend project, aiming to offer a simple and convenient solution for staying informed about events in your city. It efficiently scrapes and presents event information from a specified website, and enables users to easily introduce their own new through the configuration file. Currently, the supported cities include Melbourne and Sydney.
+This Python script was developed as a quick weekend project, aiming to offer a simple and convenient solution for staying informed about events in your city. It efficiently scrapes and presents event information from a specified website, and enables users to easily introduce their own city through the configuration file. Currently, the supported cities include Melbourne and Sydney.
 
 ## Table of Contents
 
