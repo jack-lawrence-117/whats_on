@@ -1,6 +1,6 @@
 # Whats On - Event Scraper
 
-This Python script was developed to provide an easy and convenient way to stay informed about whats on in your city. It scrapes and displays information about events happening in various cities from a specified website, with customization options available through a configuration file. The current supported cities include Canberra, Melbourne, and Sydney.
+This Python script was developed to provide an easy and convenient way to stay informed about whats on in your city. It scrapes and displays information about events happening in various cities from a specified website, with customization options available through a configuration file. The current supported cities include Melbourne and Sydney.
 
 ## Table of Contents
 

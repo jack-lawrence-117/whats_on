@@ -1,5 +1,5 @@
 ﻿city_id,url,article_tag,article_class,event_name_tag,event_name_class,event_time_tag,event_time_class,event_summary_tag,event_summary_class
 Sydney,https://www.timeout.com/sydney/things-to-do/things-to-do-in-sydney-this-week,article,tile _article_vapn8_1,h3,_h3_cuogz_1,time,_time_1pkpb_1,p,_p_1vat8_1
-Melbourne,https://whatson.melbourne.vic.gov.au/things-to-do/whats-on-this-week-in-melbourne,div,page-preview fill-height preview-type-list-square,h3,title,time,,p,summary
-Canberra,https://hercanberra.com.au/whats-on/,div,post-content,a,,span,title-small title-small--xsmall,p,
+Melbourne,https://www.timeout.com/melbourne/things-to-do/things-to-do-in-melbourne-this-week,article,tile _article_vapn8_1,h3,_h3_cuogz_1,time,_time_1pkpb_1,p,_p_1vat8_1
+,,,,,,,,,
 ,,,,,,,,,
